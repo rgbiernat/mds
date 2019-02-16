@@ -6,28 +6,23 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
 	gluon-config-mode-geo-location \
-	gluon-config-mode-geo-location-osm \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
 	gluon-config-mode-domain-select \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-web-admin \
+	gluon-web-autoupdater \
 	gluon-web-network \
 	gluon-web-private-wifi \
 	gluon-web-wifi-config \
-	gluon-web-mesh-vpn-fastd \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
-	gluon-radv-filterd \
 	gluon-setup-mode \
 	gluon-status-page \
-	gluon-status-page-mesh-batman-adv \
-	respondd-module-airtime \
 	haveged \
 	iptables \
-	iwinfo \
-	gluon-web-autoupdater
+	iwinfo	
 
 GLUON_MULTIDOMAIN = 1
 
